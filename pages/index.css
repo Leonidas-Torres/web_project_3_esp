@@ -1,0 +1,10 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/header.css");
+@import url("../fonts/inter-web/inter.css");
+@import url("../blocks/lead.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/photo-grid.css");
+
+body {
+    background-color: #2A2C2F;
+}
