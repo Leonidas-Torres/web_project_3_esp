@@ -1,0 +1,15 @@
+.footer {
+    margin: 0 auto;
+width: 191px;
+}
+
+.footer__text {
+    margin: 0;
+    color: #FFF;
+text-align: right;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+}

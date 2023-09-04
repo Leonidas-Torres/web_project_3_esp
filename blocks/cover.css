@@ -1,0 +1,52 @@
+.cover {
+    width: 1184px;
+    background-image: url(../images/background.png);
+    margin: 0 auto 92px;
+}
+
+.cover__title {
+    margin: 0 auto;
+    width: 656px;
+    color: #FFFDFD;
+text-align: center;
+font-family: Inter;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 76px;
+}
+
+.cover__text {
+    margin: 32px auto 32px;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+}
+
+.cover__link {
+    width: 158px;
+    height: 22px;
+    padding: 13px 20px;
+    border-radius: 4px;
+    background-color: #0278FE;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    transition: 0.5s ease;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.cover__link:hover {
+    transition: 0.5s ease;
+    background-color: #0063D2;
+}
