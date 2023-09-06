@@ -75,20 +75,28 @@
 
 @media only screen and (max-width: 768px) {
     .intro__title {
-        width: 100%;
+width: 288px;
         font-size: 32px;
+        line-height: 35px;
+        margin: 0 auto 9px;
 }
 
 .intro {
     width: 100%;
+    margin: 0 0 38px;
 }
 
 .intro__text {
-    width: 100%;
+    width: 288px;
 }
 
 .intro__presentation {
-    width: 100%;
+    width: 288px;
 }
 
+.intro__author {
+    width: 288px;
+    margin:0 auto;
+
+}
 } 
