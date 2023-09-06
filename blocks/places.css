@@ -27,7 +27,7 @@
 }
 
 .places__authors {
-    margin-bottom: 48px;
+
 }
 .places__author {
     color: #AAA;
@@ -114,6 +114,9 @@
     background-color: #0063D2;
 }
 
+.places__text:first-child {
+    margin: 0;
+}
 /* .places__title:nth-last-of-type(3) {
     width: 584px;
 } */
@@ -136,7 +139,7 @@
     }
 
     .places__author-name{
-        width: 295px;
+        width: 352px;
     }
 
     .places__title {
@@ -145,8 +148,8 @@
     }
 
     .places__text {
-        font-size: 14px;
         width: 352px;
+        font-size: 16px;
     }
 
     .places__image {
@@ -159,7 +162,8 @@
 
 @media only screen and (max-width: 768px) {
     .places {
-        width: 100%;
+        width: 288px;
+        margin: 0 auto 64px;
 
     }
     .places__column-text{
@@ -168,8 +172,8 @@
     }
     .places_columns {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
         grid-template-areas:
         "author"
         "image"
@@ -178,27 +182,28 @@
         grid-template-rows: auto auto auto auto;
     }
     .places__link-mobile {
-        width: 100%;
-        height: 22px;
+        width: 288px;
+        height: 48px;
         text-align: center;
-        padding: 13px 20px;
         border-radius: 4px;
         background-color: #0278FE;
         color: #FFF;
         font-family: Inter;
-        font-size: 18px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
         text-decoration: none;
         transition: 0.5s ease;
         display: block;
-        margin-bottom: 80px;
+        margin: 8px auto 16px;
         grid-area: button;
     }
 
     .places__text{
         width: 100%;
+        margin: 0 auto;
+        font-size: 14px;
     }
 
     .places__link {
@@ -209,14 +214,22 @@
         margin-top: 0; 
     }
 
+    .places__author-name{
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+
     .places__title{
        font-size: 32px;
-       width: 288px;
+       width: 100%;
+       margin: 0 auto 30px;
+       line-height: 35px;
     }
 
     .places__image {
         width: 100%;
         height: auto;
+        margin: 0 auto;
     }
 
     .places__authors-mobile{
@@ -226,5 +239,8 @@
 
     .places__authors{
         display: none;
+    }
+    .places__text:first-of-type {
+        margin: 0 auto 8px;
     }
 }
