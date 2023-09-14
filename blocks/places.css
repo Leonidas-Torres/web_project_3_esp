@@ -26,9 +26,7 @@
     display: none;
 }
 
-.places__authors {
 
-}
 .places__author {
     color: #AAA;
     font-family: Inter;
@@ -52,10 +50,10 @@
     grid-area: author;
 }
 
-.places_columns {
+.places__columns {
     display: grid;
     grid-template-columns: 460px 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     margin-bottom: 61px;
     column-gap: 40px;
     grid-template-areas:
@@ -126,10 +124,10 @@
         width: 720px;
         margin-bottom: 64px;
     }
-    .places_columns {
+    .places__columns {
         display: grid;
         grid-template-columns: 340px 352px;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         margin-bottom: 61px;
         column-gap: 28px;
     }
@@ -145,6 +143,7 @@
     .places__title {
         font-size: 42px;
         line-height: 46px;
+        width: 340px;
     }
 
     .places__text {
@@ -170,7 +169,7 @@
         width: 100%;
         margin: 16px auto 10px;
     }
-    .places_columns {
+    .places__columns {
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 100%;
