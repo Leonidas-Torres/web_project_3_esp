@@ -19,4 +19,4 @@ Página 'De patria a patria' ofrece un viaje por el globo desde Kentucky a Mejil
 - Para la creación de esta página web se utilizó HTML y CSS, utilizando Grid layout y flexbox para la organización del contenido y BEM para la identifación de elementos y bloques.
 
 ## Enlace a páginas GitHub
-https://leonidas-torres.github.io/web_project_3_esp/
+https://leonidas-torres.github.io/web_project_homeland/
