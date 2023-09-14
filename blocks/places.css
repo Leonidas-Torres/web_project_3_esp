@@ -87,10 +87,6 @@
     margin-top: -70px;
 }
 
-.places__columns:nth-of-type(6) .places__column-text{
-    margin-top: -96px;
-}
-
 .places__columns:nth-of-type(8) .places__column-text{
     margin-top: -70px;
 }
@@ -196,10 +192,6 @@
         margin-top: -96px;
     }
     
-    .places__columns:nth-of-type(6) .places__column-text{
-        margin-top: -96px;
-    }
-    
     .places__columns:nth-of-type(8) .places__column-text{
         margin-top: -70px;
     }
@@ -224,7 +216,6 @@
     .places__columns {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 100%;
         grid-template-areas:
         "author"
         "image"
