@@ -4,7 +4,7 @@
     margin: 0 auto 32px;
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: "Inter", Arial, sans-serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 900;
@@ -16,7 +16,7 @@
     margin: 0 auto 64px;
     color: #FFF;
     text-align: center;
-    font-family: Inter;
+    font-family: "Inter", Arial, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
