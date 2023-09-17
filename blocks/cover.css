@@ -1,91 +1,97 @@
 .cover {
-    width: 1184px;
-    height: 740px;
-    background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url("../images/background.png") 50% / cover no-repeat;
-    margin: 0 auto 92px;
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 1184px;
+  height: 740px;
+  background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url("../images/background.png") 50% / cover no-repeat;
+  margin: 0 auto 92px;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .cover__center {
-    text-align: center;
+  text-align: center;
 
 }
 
 .cover__title {
-    width: 656px;
-    color: #FFFDFD;
-    font-family: "Inter", Arial, sans-serif;;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 76px;
-    margin: 0 auto 42px;
+  width: 656px;
+  color: #FFFDFD;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 76px;
+  margin: 0 auto 42px;
 
 }
 
 .cover__text {
-    color: #FFF;
-    font-family: "Inter", Arial, sans-serif;;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px;
-    width: 280px;
-    margin: 0 auto 32px;
+  color: #FFF;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  width: 280px;
+  margin: 0 auto 32px;
 }
 
 .cover__link {
-    width: 158px;
-    height: 22px;
-    padding: 13px 20px;
-    border-radius: 4px;
-    background-color: #0278FE;
-    color: #FFF;
-    font-family: "Inter", Arial, sans-serif;;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-decoration: none;
-    transition: 0.5s ease;
-    display: block;
-    margin: 0 auto;
+  width: 158px;
+  height: 22px;
+  padding: 13px 20px;
+  border-radius: 4px;
+  background-color: #0278FE;
+  color: #FFF;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  transition: 0.5s ease;
+  display: block;
+  margin: 0 auto;
 
 }
 
 .cover__link:hover {
-    transition: 0.5s ease;
-    background-color: #0063D2;
+  transition: 0.5s ease;
+  background-color: #0063D2;
+}
+
+.cover:hover {
+  transition: 0.5s ease;
+  background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url("../images/background.png") 50% / cover no-repeat;
 }
 
 @media only screen and (max-width: 1280px) {
-    .cover {
-        width: 100%;
-        margin: 0 0 88px;
-    }
+  .cover {
+    width: 100%;
+    margin: 0 0 88px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .cover__title {
-        width: 288px;
-        font-size: 32px;
-        font-weight: 900;
-        line-height: 35px;
-        margin: 0 auto 16px;
+  .cover__title {
+    width: 288px;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    margin: 0 auto 16px;
 
-    }
+  }
 
-    .cover__text {
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        margin: 0 auto 16px;
-    }
+  .cover__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0 auto 16px;
+  }
 
-    .cover {
-        margin: 0 0 64px;
-    }
+  .cover {
+    margin: 0 0 64px;
+  }
 }

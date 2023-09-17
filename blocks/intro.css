@@ -1,102 +1,102 @@
 .intro {
-    width: 1017px;
-    margin: 92px auto 92px;
+  width: 1017px;
+  margin: 92px auto 92px;
 }
 
 .intro__title {
-    width: 1017px;
-    margin: 0 auto 40px;
-    color: #FFF;
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 54px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 58px;
+  width: 1017px;
+  margin: 0 auto 40px;
+  color: #FFF;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 58px;
 }
 
 .intro__text {
-    width: 722px;
-    margin: 0;
-    color: #FFF;
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 34px;
+  width: 722px;
+  margin: 0;
+  color: #FFF;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
 }
 
 .intro__author {
-    width: 722px;
-    margin:0 0 32px;
-    color: #FFF;
-    text-align: right;
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 34px;
+  width: 722px;
+  margin: 0 0 32px;
+  color: #FFF;
+  text-align: right;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
 }
 
 .intro__presentation {
-    width: 722px;
-    margin: 0;
-    color: #FFF;
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.63;
-    text-align: justify;
+  width: 722px;
+  margin: 0;
+  color: #FFF;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.63;
+  text-align: justify;
 }
 
-@media only screen  and (max-width: 1280px){
-    .intro__title {
-        width: 720px;
-        margin: 0 auto 15px;
-        font-size: 54px;
-}
+@media only screen and (max-width: 1280px) {
+  .intro__title {
+    width: 720px;
+    margin: 0 auto 15px;
+    font-size: 54px;
+  }
 
-.intro {
+  .intro {
     width: 100%;
     margin: 64px auto 55px;
-}
+  }
 
-.intro__text {
+  .intro__text {
     width: 720px;
     margin: 0 auto;
-}
+  }
 
-.intro__presentation {
+  .intro__presentation {
     width: 720px;
     margin: 0 auto;
-}
+  }
 
 }
 
 @media only screen and (max-width: 768px) {
-    .intro__title {
-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
-        margin: 0 auto 9px;
-}
+  .intro__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto 9px;
+  }
 
-.intro {
+  .intro {
     width: 100%;
     margin: 0 0 38px;
-}
+  }
 
-.intro__text {
+  .intro__text {
     width: 288px;
-}
+  }
 
-.intro__presentation {
+  .intro__presentation {
     width: 288px;
-}
+  }
 
-.intro__author {
+  .intro__author {
     width: 288px;
-    margin:0 auto;
+    margin: 0 auto;
 
+  }
 }
-} 
